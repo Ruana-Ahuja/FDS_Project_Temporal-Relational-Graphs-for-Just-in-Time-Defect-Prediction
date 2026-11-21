@@ -1,0 +1,68 @@
+{
+  "project": "Hadoop",
+  "end_date": "2011-12-31",
+  "data": {
+    "share_rows_ns==ndev==exp": 1.0,
+    "nan_feature_cells": 71,
+    "rows_input": 10509,
+    "rows_after_merge": 10509,
+    "dropped_no_time": 0,
+    "time_source": "committer_ts"
+  },
+  "label_times": {
+    "mapping_pairs": 1954,
+    "pairs_with_fix_in_data": 1954,
+    "buggy_commits": 548,
+    "buggy_without_matched_fix": 0
+  },
+  "commits_used": 4009,
+  "edges_per_relation": {
+    "same_author": 15239,
+    "same_file": 14713,
+    "same_author_same_file": 4155
+  },
+  "total_edges": 34107,
+  "future_edge_violations": {
+    "same_author": 0,
+    "same_file": 0,
+    "same_author_same_file": 0
+  },
+  "split_sizes": {
+    "tr": 2806,
+    "va": 401,
+    "te": 802
+  },
+  "pos_rate_final": {
+    "tr": 0.087,
+    "va": 0.0898,
+    "te": 0.096
+  },
+  "pos_rate_known_at_cutoff": {
+    "tr": 0.0495,
+    "va": 0.0125,
+    "te": 0.096
+  },
+  "train_buggy_relabelled_clean": 105,
+  "order_ok": true,
+  "fixed_hyperparameters": {
+    "hidden": 32,
+    "lr": 0.01,
+    "dropout": 0.2
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "bug_label_delay_days": {
+    "median": 238.7,
+    "p90": 910.9
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": "committer_ts",
+  "split": "original chronological audited split",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "rgcn_hyperparameters": {
+    "hidden": 64,
+    "lr": 0.005,
+    "dropout": 0.2
+  },
+  "models": [
+    "R-GCN",
+    "LR",
+    "HGB"
+  ],
+  "variants": [
+    "A_current_zero_imputation",
+    "B_missingness_indicator",
+    "C_without_npt"
+  ],
+  "missing_npt_count": 33,
+  "training_rows": 11708,
+  "validation_rows": 1672,
+  "test_rows": 3346,
+  "note": "Fixed-hyperparameter sensitivity analysis; validation-based threshold selection; final test labels used only for final metrics."
+}

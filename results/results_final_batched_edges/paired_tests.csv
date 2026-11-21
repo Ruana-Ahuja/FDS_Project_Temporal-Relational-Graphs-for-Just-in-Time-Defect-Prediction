@@ -1,0 +1,13 @@
+comparison,metric,mean_diff,seeds_rgcn_higher,n_seeds,p_value
+R-GCN vs LR | 8_metrics_only,AUPRC,-0.03,0,10,0.002
+R-GCN vs LR | 8_metrics_only,AUROC,-0.0143,0,10,0.002
+R-GCN vs LR | 8_metrics_only,R20,-0.0105,1,10,0.0078
+R-GCN vs LR | 8_metrics_plus_neighbours,AUPRC,-0.0251,0,10,0.002
+R-GCN vs LR | 8_metrics_plus_neighbours,AUROC,-0.0074,0,10,0.002
+R-GCN vs LR | 8_metrics_plus_neighbours,R20,-0.0196,0,10,0.002
+R-GCN vs RF | 8_metrics_only,AUPRC,-0.0069,2,10,0.0371
+R-GCN vs RF | 8_metrics_only,AUROC,-0.0355,0,10,0.002
+R-GCN vs RF | 8_metrics_only,R20,-0.0671,0,10,0.002
+R-GCN vs RF | 8_metrics_plus_neighbours,AUPRC,0.0054,7,10,0.084
+R-GCN vs RF | 8_metrics_plus_neighbours,AUROC,-0.0191,0,10,0.002
+R-GCN vs RF | 8_metrics_plus_neighbours,R20,-0.0265,0,10,0.002

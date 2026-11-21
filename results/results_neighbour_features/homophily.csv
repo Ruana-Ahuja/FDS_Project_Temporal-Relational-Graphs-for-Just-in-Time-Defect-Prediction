@@ -1,0 +1,5 @@
+relation,edges,base_rate,P_target_buggy_given_src_buggy_final,P_target_buggy_given_src_buggy_and_known,P_target_buggy_given_src_clean,share_edges_src_known_buggy,P_src_known_buggy_year_matched,P_src_not_known_buggy_year_matched
+same_author,66855,0.2641,0.3108,0.2678,0.23,0.0158,0.2678,0.2357
+same_file,64706,0.2641,0.2831,0.1269,0.2177,0.1371,0.1269,0.2395
+same_author_same_file,12721,0.2641,0.5017,0.2835,0.2658,0.01,0.225,0.2977
+all relations,144282,0.2641,0.3132,0.1436,0.2284,0.0696,0.1436,0.2336

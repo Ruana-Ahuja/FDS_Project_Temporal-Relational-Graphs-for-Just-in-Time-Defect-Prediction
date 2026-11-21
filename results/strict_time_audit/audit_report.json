@@ -1,0 +1,85 @@
+{
+  "data": {
+    "share_rows_ns==ndev==exp": 1.0,
+    "nan_feature_cells": 33,
+    "rows_input": 16726,
+    "rows_after_merge": 16726,
+    "dropped_no_time": 0,
+    "time_source": "committer_ts"
+  },
+  "label_times": {
+    "mapping_pairs": 32160,
+    "pairs_with_fix_in_data": 32160,
+    "buggy_commits": 4418,
+    "buggy_without_matched_fix": 0
+  },
+  "commits_used": 16726,
+  "edges_per_relation": {
+    "same_author": 66384,
+    "same_file": 64719,
+    "same_author_same_file": 12637
+  },
+  "future_edge_violations": {
+    "same_author": 0,
+    "same_file": 0,
+    "same_author_same_file": 0
+  },
+  "history_feature_checks": {
+    "nf_vs_git_file_count": 0.994,
+    "npt_vs_past_only_count": 0.352,
+    "npt_vs_all_time_count": 0.379
+  },
+  "tabular_models_run": [
+    "LR",
+    "RF"
+  ],
+  "random_split_note": "random 70/10/20 split per seed, final labels (no label-time relabelling), same past-only graph",
+  "tr_n": 11708,
+  "tr_pos_rate_final_labels": 0.3159,
+  "tr_pos_rate_known_at_cutoff": 0.2771,
+  "va_n": 1672,
+  "va_pos_rate_final_labels": 0.1681,
+  "va_pos_rate_known_at_cutoff": 0.0604,
+  "te_n": 3346,
+  "te_pos_rate_final_labels": 0.1309,
+  "te_pos_rate_known_at_cutoff": 0.1309,
+  "train_cutoff": "2016-03-02 09:04:19",
+  "test_cutoff": "2017-05-02 21:05:54",
+  "order_ok": true,
+  "scaler_fit_rows": 11708,
+  "bug_label_delay_days": {
+    "median": 186.2,
+    "p90": 946.5
+  },
+  "train_buggy_labels_not_yet_known_at_train_cutoff": 455,
+  "bug_rate_by_year_final_labels": {
+    "2007": 0.88,
+    "2008": 0.589,
+    "2009": 0.277,
+    "2010": 0.335,
+    "2011": 0.308,
+    "2012": 0.333,
+    "2013": 0.301,
+    "2014": 0.251,
+    "2015": 0.209,
+    "2016": 0.179,
+    "2017": 0.188,
+    "2018": 0.122,
+    "2019": 0.037
+  },
+  "feature_availability": {
+    "ns,nm,nf,entropy,la,ld,lt,fix,npt": "change metrics of the commit / history before it: available at commit time",
+    "graph edges": "only earlier commits (asserted: 0 future edges)",
+    "author experience (prior)": "count of EARLIER commits by the same author",
+    "neighbour past-bug ratio": "counts a neighbour as buggy only if its first fixing commit is dated <= the target commit",
+    "training/validation labels": "relabelled to what was known at the train / test cutoff (fix not yet committed => clean)",
+    "scaler": "fit on training rows only",
+    "test set": "never used for any checkpoint, threshold or hyperparameter choice"
+  },
+  "best_hyperparameters": {
+    "hidden": 64,
+    "lr": 0.005,
+    "dropout": 0.2
+  },
+  "mean_best_epoch": 57.333333333333336
+}

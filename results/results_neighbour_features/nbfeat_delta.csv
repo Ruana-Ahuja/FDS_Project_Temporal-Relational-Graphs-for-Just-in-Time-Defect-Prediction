@@ -1,0 +1,46 @@
+variant,model,metric,mean_diff,seeds_lower,n_seeds,p_value
+drop author experience,R-GCN (full graph),AUPRC,-0.0008,5,10,0.7695
+drop author experience,R-GCN (full graph),AUROC,-0.0033,5,10,0.375
+drop author experience,R-GCN (full graph),R20,0.0034,5,10,0.543
+drop author experience,LR,AUPRC,-0.003,10,10,0.002
+drop author experience,LR,AUROC,0.0013,0,10,0.002
+drop author experience,LR,R20,0.0,0,10,1.0
+drop author experience,RF,AUPRC,0.0222,0,10,0.002
+drop author experience,RF,AUROC,0.0147,0,10,0.002
+drop author experience,RF,R20,0.0324,0,10,0.002
+drop degree features,R-GCN (full graph),AUPRC,-0.01,7,10,0.084
+drop degree features,R-GCN (full graph),AUROC,-0.0027,8,10,0.0645
+drop degree features,R-GCN (full graph),R20,-0.0068,6,10,0.3164
+drop degree features,LR,AUPRC,0.007,0,10,0.002
+drop degree features,LR,AUROC,-0.0002,10,10,0.002
+drop degree features,LR,R20,-0.0091,10,10,0.002
+drop degree features,RF,AUPRC,0.0011,2,10,0.3223
+drop degree features,RF,AUROC,-0.0047,10,10,0.002
+drop degree features,RF,R20,-0.0087,9,10,0.0117
+drop past-bug ratio,R-GCN (full graph),AUPRC,-0.0049,6,10,0.4922
+drop past-bug ratio,R-GCN (full graph),AUROC,-0.0032,6,10,0.2324
+drop past-bug ratio,R-GCN (full graph),R20,-0.013,7,10,0.0488
+drop past-bug ratio,LR,AUPRC,-0.0078,10,10,0.002
+drop past-bug ratio,LR,AUROC,0.0037,0,10,0.002
+drop past-bug ratio,LR,R20,-0.0046,10,10,0.002
+drop past-bug ratio,RF,AUPRC,-0.0089,10,10,0.002
+drop past-bug ratio,RF,AUROC,0.0006,4,10,0.3223
+drop past-bug ratio,RF,R20,0.0057,2,10,0.0391
+past-bug ratio only,R-GCN (full graph),AUPRC,-0.0113,7,10,0.0371
+past-bug ratio only,R-GCN (full graph),AUROC,-0.007,9,10,0.0273
+past-bug ratio only,R-GCN (full graph),R20,-0.0053,5,10,0.3516
+past-bug ratio only,LR,AUPRC,0.0111,0,10,0.002
+past-bug ratio only,LR,AUROC,0.0028,0,10,0.002
+past-bug ratio only,LR,R20,0.0114,0,10,0.002
+past-bug ratio only,RF,AUPRC,0.0213,0,10,0.002
+past-bug ratio only,RF,AUROC,0.0156,0,10,0.002
+past-bug ratio only,RF,R20,0.0324,0,10,0.002
+no neighbour features (metrics only),R-GCN (full graph),AUPRC,-0.0126,9,10,0.0059
+no neighbour features (metrics only),R-GCN (full graph),AUROC,-0.0059,9,10,0.0039
+no neighbour features (metrics only),R-GCN (full graph),R20,-0.0062,6,10,0.3066
+no neighbour features (metrics only),LR,AUPRC,0.0049,0,10,0.002
+no neighbour features (metrics only),LR,AUROC,0.0069,0,10,0.002
+no neighbour features (metrics only),LR,R20,-0.0091,10,10,0.002
+no neighbour features (metrics only),RF,AUPRC,0.0123,0,10,0.002
+no neighbour features (metrics only),RF,AUROC,0.0165,0,10,0.002
+no neighbour features (metrics only),RF,R20,0.0406,0,10,0.002

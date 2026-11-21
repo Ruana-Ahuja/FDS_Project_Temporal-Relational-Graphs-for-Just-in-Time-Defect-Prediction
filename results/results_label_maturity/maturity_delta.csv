@@ -1,0 +1,46 @@
+variant,model,metric,mean_diff,seeds_higher,n_seeds,p_value
+buffer 180 days,R-GCN,AUPRC,-0.0006,3,10,0.6953
+buffer 180 days,R-GCN,AUROC,-0.0007,5,10,0.7695
+buffer 180 days,R-GCN,R20,0.0037,5,10,0.5117
+buffer 180 days,LR (metrics only),AUPRC,0.0,10,10,0.002
+buffer 180 days,LR (metrics only),AUROC,0.0009,10,10,0.002
+buffer 180 days,LR (metrics only),R20,0.0068,10,10,0.002
+buffer 180 days,LR (+neighbours),AUPRC,0.0029,10,10,0.002
+buffer 180 days,LR (+neighbours),AUROC,0.0007,10,10,0.002
+buffer 180 days,LR (+neighbours),R20,-0.0046,0,10,0.002
+buffer 180 days,RF (metrics only),AUPRC,0.0129,10,10,0.002
+buffer 180 days,RF (metrics only),AUROC,0.0015,10,10,0.002
+buffer 180 days,RF (metrics only),R20,-0.0011,3,10,0.6875
+buffer 180 days,RF (+neighbours),AUPRC,0.0227,10,10,0.002
+buffer 180 days,RF (+neighbours),AUROC,0.0103,10,10,0.002
+buffer 180 days,RF (+neighbours),R20,0.0183,10,10,0.002
+buffer 365 days,R-GCN,AUPRC,0.01,9,10,0.0273
+buffer 365 days,R-GCN,AUROC,0.006,9,10,0.0488
+buffer 365 days,R-GCN,R20,0.0032,6,10,0.75
+buffer 365 days,LR (metrics only),AUPRC,0.0023,10,10,0.002
+buffer 365 days,LR (metrics only),AUROC,0.0017,10,10,0.002
+buffer 365 days,LR (metrics only),R20,0.0137,10,10,0.002
+buffer 365 days,LR (+neighbours),AUPRC,-0.0012,0,10,0.002
+buffer 365 days,LR (+neighbours),AUROC,-0.0011,0,10,0.002
+buffer 365 days,LR (+neighbours),R20,-0.0091,0,10,0.002
+buffer 365 days,RF (metrics only),AUPRC,0.0142,10,10,0.002
+buffer 365 days,RF (metrics only),AUROC,0.0003,6,10,0.375
+buffer 365 days,RF (metrics only),R20,-0.0089,1,10,0.0117
+buffer 365 days,RF (+neighbours),AUPRC,0.0283,10,10,0.002
+buffer 365 days,RF (+neighbours),AUROC,0.0108,10,10,0.002
+buffer 365 days,RF (+neighbours),R20,0.0144,10,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],R-GCN,AUPRC,0.0109,9,10,0.0039
+oracle drop of unobservable bugs [NON-DEPLOYABLE],R-GCN,AUROC,0.0034,10,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],R-GCN,R20,0.0034,6,10,0.707
+oracle drop of unobservable bugs [NON-DEPLOYABLE],LR (metrics only),AUPRC,0.001,10,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],LR (metrics only),AUROC,0.0015,10,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],LR (metrics only),R20,0.0114,10,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],LR (+neighbours),AUPRC,-0.0002,0,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],LR (+neighbours),AUROC,0.0009,10,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],LR (+neighbours),R20,-0.0023,0,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],RF (metrics only),AUPRC,0.0104,10,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],RF (metrics only),AUROC,0.0027,10,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],RF (metrics only),R20,-0.0116,1,10,0.0078
+oracle drop of unobservable bugs [NON-DEPLOYABLE],RF (+neighbours),AUPRC,0.0127,10,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],RF (+neighbours),AUROC,0.0054,10,10,0.002
+oracle drop of unobservable bugs [NON-DEPLOYABLE],RF (+neighbours),R20,0.0025,7,10,0.3359

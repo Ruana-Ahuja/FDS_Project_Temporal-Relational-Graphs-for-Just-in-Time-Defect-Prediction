@@ -1,0 +1,112 @@
+{
+  "data": {
+    "share_rows_ns==ndev==exp": 1.0,
+    "nan_feature_cells": 33,
+    "rows_input": 16726,
+    "rows_after_merge": 16726,
+    "dropped_no_time": 0,
+    "time_source": "committer_ts"
+  },
+  "commits_used": 16726,
+  "fixed_hyperparameters": {
+    "hidden": 32,
+    "lr": 0.01,
+    "dropout": 0.2
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "reference_feature_columns": [
+    "ns",
+    "nm",
+    "nf",
+    "entropy",
+    "la",
+    "ld",
+    "lt",
+    "fix"
+  ],
+  "graphs": {
+    "past-only K=1": {
+      "edges": {
+        "same_author": 13131,
+        "same_file": 13228,
+        "same_author_same_file": 3181
+      },
+      "violations": {
+        "same_author": 0,
+        "same_file": 0,
+        "same_author_same_file": 0
+      }
+    },
+    "past-only K=3": {
+      "edges": {
+        "same_author": 39939,
+        "same_file": 39351,
+        "same_author_same_file": 8333
+      },
+      "violations": {
+        "same_author": 0,
+        "same_file": 0,
+        "same_author_same_file": 0
+      }
+    },
+    "past-only K=5": {
+      "edges": {
+        "same_author": 66855,
+        "same_file": 64706,
+        "same_author_same_file": 12721
+      },
+      "violations": {
+        "same_author": 0,
+        "same_file": 0,
+        "same_author_same_file": 0
+      }
+    },
+    "past-only K=10": {
+      "edges": {
+        "same_author": 133057,
+        "same_file": 123972,
+        "same_author_same_file": 22642
+      },
+      "violations": {
+        "same_author": 0,
+        "same_file": 0,
+        "same_author_same_file": 0
+      }
+    },
+    "past-only K=20": {
+      "edges": {
+        "same_author": 260135,
+        "same_file": 228691,
+        "same_author_same_file": 40769
+      },
+      "violations": {
+        "same_author": 0,
+        "same_file": 0,
+        "same_author_same_file": 0
+      }
+    },
+    "future-allowed K=5 (NON-DEPLOYABLE)": {
+      "edges": {
+        "same_author": 67451,
+        "same_file": 67768,
+        "same_author_same_file": 14438
+      },
+      "edges_pointing_from_same_or_later_time": {
+        "same_author": 27353,
+        "same_file": 30405,
+        "same_author_same_file": 6284
+      }
+    }
+  }
+}

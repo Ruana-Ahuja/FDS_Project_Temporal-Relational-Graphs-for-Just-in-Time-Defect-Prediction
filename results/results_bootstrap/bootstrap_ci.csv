@@ -1,0 +1,19 @@
+model,metric,estimate,ci_low,ci_high
+R-GCN,AUPRC,0.4019,0.3404,0.4718
+R-GCN,AUROC,0.788,0.7652,0.8111
+R-GCN,R20,0.54,0.5007,0.5787
+R-GCN (no edges),AUPRC,0.4205,0.3509,0.4933
+R-GCN (no edges),AUROC,0.8109,0.7888,0.8341
+R-GCN (no edges),R20,0.5605,0.5207,0.6053
+LR (metrics only),AUPRC,0.4313,0.3617,0.5011
+LR (metrics only),AUROC,0.802,0.7787,0.8265
+LR (metrics only),R20,0.5502,0.5135,0.5985
+LR (+neighbours),AUPRC,0.4264,0.3563,0.4971
+LR (+neighbours),AUROC,0.7951,0.7704,0.8208
+LR (+neighbours),R20,0.5594,0.518,0.606
+RF (metrics only),AUPRC,0.4082,0.3382,0.4811
+RF (metrics only),AUROC,0.8232,0.8002,0.846
+RF (metrics only),R20,0.6068,0.5559,0.653
+RF (+neighbours),AUPRC,0.3959,0.3245,0.4724
+RF (+neighbours),AUROC,0.8067,0.7816,0.8317
+RF (+neighbours),R20,0.5662,0.5119,0.6221

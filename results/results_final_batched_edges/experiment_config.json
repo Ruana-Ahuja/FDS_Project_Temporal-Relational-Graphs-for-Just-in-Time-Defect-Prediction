@@ -1,0 +1,68 @@
+{
+  "experiment": "Final chronological audited evaluation excluding npt",
+  "timestamp": "committer_ts",
+  "split": "original chronological audited split",
+  "features": [
+    "ns",
+    "nm",
+    "nf",
+    "entropy",
+    "la",
+    "ld",
+    "lt",
+    "fix"
+  ],
+  "neighbour_features": "all six retained",
+  "hyperparameter_grid": {
+    "hidden": [
+      32,
+      64
+    ],
+    "lr": [
+      0.01,
+      0.005
+    ],
+    "dropout": [
+      0.2,
+      0.5
+    ]
+  },
+  "tuning_seeds": [
+    100,
+    101
+  ],
+  "selection_metric": "mean validation AUPRC",
+  "selected_hyperparameters": {
+    "hidden": 32,
+    "lr": 0.01,
+    "dropout": 0.2
+  },
+  "best_mean_validation_AUPRC": 0.28416414150552904,
+  "evaluation_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "models": [
+    "R-GCN",
+    "LR",
+    "RF"
+  ],
+  "training_epochs": 100,
+  "weight_decay": 0.0001,
+  "threshold_selection": "validation only",
+  "test_usage": "final metrics only; no model, hyperparameter or threshold selection",
+  "split_sizes": {
+    "tr": 11708,
+    "va": 1672,
+    "te": 3346
+  },
+  "mean_best_epoch": 61.7
+}

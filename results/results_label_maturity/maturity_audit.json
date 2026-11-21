@@ -1,0 +1,53 @@
+{
+  "fixed_hyperparameters": {
+    "hidden": 32,
+    "lr": 0.01,
+    "dropout": 0.2
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "variants": {
+    "audited (reference)": {
+      "train_n": 11708,
+      "train_pos_rate_used": 0.2771,
+      "unobservable_buggy_still_in_train": 455,
+      "val_n": 1672,
+      "val_pos_rate_used": 0.0604,
+      "test_n": 3346
+    },
+    "buffer 180 days": {
+      "train_n": 10907,
+      "train_pos_rate_used": 0.2947,
+      "unobservable_buggy_still_in_train": 335,
+      "val_n": 1034,
+      "val_pos_rate_used": 0.0783,
+      "test_n": 3346
+    },
+    "buffer 365 days": {
+      "train_n": 10082,
+      "train_pos_rate_used": 0.3095,
+      "unobservable_buggy_still_in_train": 259,
+      "val_n": 210,
+      "val_pos_rate_used": 0.1095,
+      "test_n": 3346
+    },
+    "oracle drop of unobservable bugs [NON-DEPLOYABLE]": {
+      "train_n": 11253,
+      "train_pos_rate_used": 0.2883,
+      "unobservable_buggy_still_in_train": 0,
+      "val_n": 1492,
+      "val_pos_rate_used": 0.0677,
+      "test_n": 3346
+    }
+  }
+}

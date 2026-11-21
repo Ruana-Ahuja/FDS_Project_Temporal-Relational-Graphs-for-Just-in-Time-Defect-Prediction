@@ -1,0 +1,48 @@
+{
+  "fixed_hyperparameters": {
+    "hidden": 32,
+    "lr": 0.01,
+    "dropout": 0.2
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "conditions": {
+    "chrono, audited labels (ours)": {
+      "train_n": 11708,
+      "val_n": 1672,
+      "test_n": 3346,
+      "train_pos_rate_used_for_training": 0.2771,
+      "val_pos_rate_used_for_threshold": 0.0604,
+      "test_pos_rate_final_labels": 0.1309,
+      "train_buggy_relabelled_clean": 455
+    },
+    "chrono, leaky labels": {
+      "train_n": 11708,
+      "val_n": 1672,
+      "test_n": 3346,
+      "train_pos_rate_used_for_training": 0.3159,
+      "val_pos_rate_used_for_threshold": 0.1681,
+      "test_pos_rate_final_labels": 0.1309,
+      "train_buggy_relabelled_clean": 0
+    },
+    "random split, final labels": {
+      "train_n": 11708,
+      "val_n": 1672,
+      "test_n": 3346,
+      "train_pos_rate_used_for_training": 0.2675,
+      "val_pos_rate_used_for_threshold": 0.2506,
+      "test_pos_rate_final_labels": 0.2591,
+      "train_buggy_relabelled_clean": 0
+    }
+  }
+}

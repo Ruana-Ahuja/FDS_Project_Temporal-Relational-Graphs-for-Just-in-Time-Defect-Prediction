@@ -1,0 +1,40 @@
+comparison,metric,mean_diff,seeds_first_higher,n_seeds,p_value
+audited: R-GCN minus LR (metrics only),AUPRC,-0.0266,0,10,0.002
+audited: R-GCN minus LR (metrics only),AUROC,-0.0441,0,10,0.002
+audited: R-GCN minus LR (metrics only),R20,-0.0909,0,10,0.002
+audited: R-GCN minus LR (+neighbours),AUPRC,-0.0074,2,10,0.1055
+audited: R-GCN minus LR (+neighbours),AUROC,-0.0545,0,10,0.002
+audited: R-GCN minus LR (+neighbours),R20,-0.026,2,10,0.0625
+audited: R-GCN minus RF (metrics only),AUPRC,-0.1084,0,10,0.002
+audited: R-GCN minus RF (metrics only),AUROC,-0.106,0,10,0.002
+audited: R-GCN minus RF (metrics only),R20,-0.1792,0,10,0.002
+audited: R-GCN minus RF (+neighbours),AUPRC,-0.1055,0,10,0.002
+audited: R-GCN minus RF (+neighbours),AUROC,-0.101,0,10,0.002
+audited: R-GCN minus RF (+neighbours),R20,-0.1403,0,10,0.002
+R-GCN: no edges minus full graph,AUPRC,0.0469,10,10,0.002
+R-GCN: no edges minus full graph,AUROC,0.1092,10,10,0.002
+R-GCN: no edges minus full graph,R20,0.1338,10,10,0.002
+R-GCN: leaky minus audited,AUPRC,0.0535,10,10,0.002
+R-GCN: leaky minus audited,AUROC,0.0544,10,10,0.002
+R-GCN: leaky minus audited,R20,0.1039,10,10,0.002
+LR (+neighbours): leaky minus audited,AUPRC,0.039,10,10,0.002
+LR (+neighbours): leaky minus audited,AUROC,0.0768,10,10,0.002
+LR (+neighbours): leaky minus audited,R20,0.1299,10,10,0.002
+RF (+neighbours): leaky minus audited,AUPRC,-0.0071,3,10,0.1309
+RF (+neighbours): leaky minus audited,AUROC,0.0376,10,10,0.002
+RF (+neighbours): leaky minus audited,R20,0.0818,10,10,0.002
+LR (metrics only): leaky minus audited,AUPRC,0.0247,10,10,0.002
+LR (metrics only): leaky minus audited,AUROC,0.0765,10,10,0.002
+LR (metrics only): leaky minus audited,R20,0.0519,10,10,0.002
+RF (metrics only): leaky minus audited,AUPRC,-0.0406,0,10,0.002
+RF (metrics only): leaky minus audited,AUROC,0.011,10,10,0.002
+RF (metrics only): leaky minus audited,R20,0.0221,8,10,0.0078
+R-GCN: random split minus audited,AUPRC,0.0871,10,10,0.002
+R-GCN: random split minus audited,AUROC,0.1138,10,10,0.002
+R-GCN: random split minus audited,R20,0.1801,10,10,0.002
+LR (+neighbours): random split minus audited,AUPRC,0.1316,10,10,0.002
+LR (+neighbours): random split minus audited,AUROC,0.1539,10,10,0.002
+LR (+neighbours): random split minus audited,R20,0.232,10,10,0.002
+RF (+neighbours): random split minus audited,AUPRC,0.1362,10,10,0.002
+RF (+neighbours): random split minus audited,AUROC,0.1409,10,10,0.002
+RF (+neighbours): random split minus audited,R20,0.2183,10,10,0.002

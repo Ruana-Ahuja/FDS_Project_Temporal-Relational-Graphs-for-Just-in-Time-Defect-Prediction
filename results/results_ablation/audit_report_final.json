@@ -1,0 +1,94 @@
+{
+  "data": {
+    "share_rows_ns==ndev==exp": 1.0,
+    "nan_feature_cells": 33,
+    "rows_input": 16726,
+    "rows_after_merge": 16726,
+    "dropped_no_time": 0,
+    "time_source": "committer_ts"
+  },
+  "label_times": {
+    "mapping_pairs": 32160,
+    "pairs_with_fix_in_data": 32160,
+    "buggy_commits": 4418,
+    "buggy_without_matched_fix": 0
+  },
+  "commits_used": 16726,
+  "edges_per_relation": {
+    "same_author": 66855,
+    "same_file": 64706,
+    "same_author_same_file": 12721
+  },
+  "total_edges": 144282,
+  "future_edge_violations": {
+    "same_author": 0,
+    "same_file": 0,
+    "same_author_same_file": 0
+  },
+  "split_sizes": {
+    "tr": 11708,
+    "va": 1672,
+    "te": 3346
+  },
+  "pos_rate_final": {
+    "tr": 0.3159,
+    "va": 0.1681,
+    "te": 0.1309
+  },
+  "pos_rate_known_at_cutoff": {
+    "tr": 0.2771,
+    "va": 0.0604,
+    "te": 0.1309
+  },
+  "train_buggy_labels_not_yet_known": 455,
+  "order_ok": true,
+  "scaler_fit_rows": 11708,
+  "fixed_hyperparameters": {
+    "hidden": 32,
+    "lr": 0.01,
+    "dropout": 0.2
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "feature_sets": {
+    "drop npt (reference)": [
+      "ns",
+      "nm",
+      "nf",
+      "entropy",
+      "la",
+      "ld",
+      "lt",
+      "fix"
+    ],
+    "drop fix (keep npt)": [
+      "ns",
+      "nm",
+      "nf",
+      "entropy",
+      "la",
+      "ld",
+      "lt",
+      "npt"
+    ],
+    "drop fix + npt": [
+      "ns",
+      "nm",
+      "nf",
+      "entropy",
+      "la",
+      "ld",
+      "lt"
+    ]
+  }
+}

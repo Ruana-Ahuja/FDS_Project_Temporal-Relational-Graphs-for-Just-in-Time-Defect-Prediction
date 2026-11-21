@@ -1,0 +1,79 @@
+group,variant,model,vs,metric,mean_diff,seeds_lower,n_seeds,p_value
+feature,drop fix (keep npt),R-GCN,R-GCN @ drop npt (reference),AUPRC,0.0101,1,10,0.0195
+feature,drop fix (keep npt),R-GCN,R-GCN @ drop npt (reference),AUROC,0.0068,0,10,0.002
+feature,drop fix (keep npt),R-GCN,R-GCN @ drop npt (reference),R20,0.0053,4,10,0.3711
+feature,drop fix (keep npt),LR (metrics only),LR (metrics only) @ drop npt (reference),AUPRC,0.0014,0,10,0.002
+feature,drop fix (keep npt),LR (metrics only),LR (metrics only) @ drop npt (reference),AUROC,0.0032,0,10,0.002
+feature,drop fix (keep npt),LR (metrics only),LR (metrics only) @ drop npt (reference),R20,0.0046,0,10,0.002
+feature,drop fix (keep npt),LR (+neighbours),LR (+neighbours) @ drop npt (reference),AUPRC,0.0031,0,10,0.002
+feature,drop fix (keep npt),LR (+neighbours),LR (+neighbours) @ drop npt (reference),AUROC,0.0032,0,10,0.002
+feature,drop fix (keep npt),LR (+neighbours),LR (+neighbours) @ drop npt (reference),R20,0.0046,0,10,0.002
+feature,drop fix (keep npt),RF (metrics only),RF (metrics only) @ drop npt (reference),AUPRC,0.0022,2,10,0.1934
+feature,drop fix (keep npt),RF (metrics only),RF (metrics only) @ drop npt (reference),AUROC,-0.0011,10,10,0.002
+feature,drop fix (keep npt),RF (metrics only),RF (metrics only) @ drop npt (reference),R20,-0.0059,8,10,0.0117
+feature,drop fix (keep npt),RF (+neighbours),RF (+neighbours) @ drop npt (reference),AUPRC,0.0043,2,10,0.1602
+feature,drop fix (keep npt),RF (+neighbours),RF (+neighbours) @ drop npt (reference),AUROC,0.0017,0,10,0.002
+feature,drop fix (keep npt),RF (+neighbours),RF (+neighbours) @ drop npt (reference),R20,0.0002,5,10,0.7852
+feature,drop fix + npt,R-GCN,R-GCN @ drop npt (reference),AUPRC,0.0095,2,10,0.0098
+feature,drop fix + npt,R-GCN,R-GCN @ drop npt (reference),AUROC,0.0048,0,10,0.002
+feature,drop fix + npt,R-GCN,R-GCN @ drop npt (reference),R20,0.0027,4,10,0.2988
+feature,drop fix + npt,LR (metrics only),LR (metrics only) @ drop npt (reference),AUPRC,0.0012,0,10,0.002
+feature,drop fix + npt,LR (metrics only),LR (metrics only) @ drop npt (reference),AUROC,0.0021,0,10,0.002
+feature,drop fix + npt,LR (metrics only),LR (metrics only) @ drop npt (reference),R20,0.0046,0,10,0.002
+feature,drop fix + npt,LR (+neighbours),LR (+neighbours) @ drop npt (reference),AUPRC,0.0015,0,10,0.002
+feature,drop fix + npt,LR (+neighbours),LR (+neighbours) @ drop npt (reference),AUROC,0.0024,0,10,0.002
+feature,drop fix + npt,LR (+neighbours),LR (+neighbours) @ drop npt (reference),R20,0.0046,0,10,0.002
+feature,drop fix + npt,RF (metrics only),RF (metrics only) @ drop npt (reference),AUPRC,0.0024,4,10,0.2324
+feature,drop fix + npt,RF (metrics only),RF (metrics only) @ drop npt (reference),AUROC,-0.0009,7,10,0.0488
+feature,drop fix + npt,RF (metrics only),RF (metrics only) @ drop npt (reference),R20,-0.0018,6,10,0.4297
+feature,drop fix + npt,RF (+neighbours),RF (+neighbours) @ drop npt (reference),AUPRC,-0.0002,5,10,1.0
+feature,drop fix + npt,RF (+neighbours),RF (+neighbours) @ drop npt (reference),AUROC,-0.0009,8,10,0.1055
+feature,drop fix + npt,RF (+neighbours),RF (+neighbours) @ drop npt (reference),R20,-0.0055,7,10,0.0234
+graph,remove same_author,R-GCN,R-GCN @ full graph (reference),AUPRC,0.0087,4,10,0.1934
+graph,remove same_author,R-GCN,R-GCN @ full graph (reference),AUROC,0.0072,2,10,0.0645
+graph,remove same_author,R-GCN,R-GCN @ full graph (reference),R20,0.0107,2,10,0.1309
+graph,remove same_author,LR (+neighbours),LR (+neighbours) @ full graph (reference),AUPRC,0.0054,0,10,0.002
+graph,remove same_author,LR (+neighbours),LR (+neighbours) @ full graph (reference),AUROC,0.0028,0,10,0.002
+graph,remove same_author,LR (+neighbours),LR (+neighbours) @ full graph (reference),R20,0.0,0,10,1.0
+graph,remove same_author,RF (+neighbours),RF (+neighbours) @ full graph (reference),AUPRC,0.0043,2,10,0.0195
+graph,remove same_author,RF (+neighbours),RF (+neighbours) @ full graph (reference),AUROC,0.0027,0,10,0.002
+graph,remove same_author,RF (+neighbours),RF (+neighbours) @ full graph (reference),R20,-0.0041,8,10,0.0391
+graph,remove same_file,R-GCN,R-GCN @ full graph (reference),AUPRC,0.0025,3,10,0.4316
+graph,remove same_file,R-GCN,R-GCN @ full graph (reference),AUROC,0.0008,4,10,0.4922
+graph,remove same_file,R-GCN,R-GCN @ full graph (reference),R20,0.0064,3,10,0.334
+graph,remove same_file,LR (+neighbours),LR (+neighbours) @ full graph (reference),AUPRC,-0.006,10,10,0.002
+graph,remove same_file,LR (+neighbours),LR (+neighbours) @ full graph (reference),AUROC,0.0045,0,10,0.002
+graph,remove same_file,LR (+neighbours),LR (+neighbours) @ full graph (reference),R20,0.0,0,10,1.0
+graph,remove same_file,RF (+neighbours),RF (+neighbours) @ full graph (reference),AUPRC,-0.0113,10,10,0.002
+graph,remove same_file,RF (+neighbours),RF (+neighbours) @ full graph (reference),AUROC,-0.0007,6,10,0.375
+graph,remove same_file,RF (+neighbours),RF (+neighbours) @ full graph (reference),R20,0.0039,3,10,0.1836
+graph,remove same_author_same_file,R-GCN,R-GCN @ full graph (reference),AUPRC,-0.0043,6,10,0.4316
+graph,remove same_author_same_file,R-GCN,R-GCN @ full graph (reference),AUROC,0.0008,4,10,0.7695
+graph,remove same_author_same_file,R-GCN,R-GCN @ full graph (reference),R20,-0.0037,5,10,0.4922
+graph,remove same_author_same_file,LR (+neighbours),LR (+neighbours) @ full graph (reference),AUPRC,-0.0023,10,10,0.002
+graph,remove same_author_same_file,LR (+neighbours),LR (+neighbours) @ full graph (reference),AUROC,0.0007,0,10,0.002
+graph,remove same_author_same_file,LR (+neighbours),LR (+neighbours) @ full graph (reference),R20,0.0,0,10,1.0
+graph,remove same_author_same_file,RF (+neighbours),RF (+neighbours) @ full graph (reference),AUPRC,-0.0006,5,10,0.7695
+graph,remove same_author_same_file,RF (+neighbours),RF (+neighbours) @ full graph (reference),AUROC,-0.0006,7,10,0.2324
+graph,remove same_author_same_file,RF (+neighbours),RF (+neighbours) @ full graph (reference),R20,-0.0027,5,10,0.2969
+graph,remove all edges,R-GCN,R-GCN @ full graph (reference),AUPRC,0.0186,0,10,0.002
+graph,remove all edges,R-GCN,R-GCN @ full graph (reference),AUROC,0.0229,0,10,0.002
+graph,remove all edges,R-GCN,R-GCN @ full graph (reference),R20,0.0205,0,10,0.002
+graph,remove all edges,LR (+neighbours),LR (+neighbours) @ full graph (reference),AUPRC,0.0006,0,10,0.002
+graph,remove all edges,LR (+neighbours),LR (+neighbours) @ full graph (reference),AUROC,0.0041,0,10,0.002
+graph,remove all edges,LR (+neighbours),LR (+neighbours) @ full graph (reference),R20,-0.0046,10,10,0.002
+graph,remove all edges,RF (+neighbours),RF (+neighbours) @ full graph (reference),AUPRC,-0.0062,9,10,0.0059
+graph,remove all edges,RF (+neighbours),RF (+neighbours) @ full graph (reference),AUROC,-0.0008,8,10,0.1055
+graph,remove all edges,RF (+neighbours),RF (+neighbours) @ full graph (reference),R20,0.0037,3,10,0.2656
+graph,shuffled edges (past-only),R-GCN,R-GCN @ full graph (reference),AUPRC,-0.0016,5,10,0.9219
+graph,shuffled edges (past-only),R-GCN,R-GCN @ full graph (reference),AUROC,-0.0013,6,10,0.6953
+graph,shuffled edges (past-only),R-GCN,R-GCN @ full graph (reference),R20,0.0037,5,10,0.7695
+graph,shuffled edges (past-only),LR (+neighbours),LR (+neighbours) @ full graph (reference),AUPRC,-0.0074,10,10,0.002
+graph,shuffled edges (past-only),LR (+neighbours),LR (+neighbours) @ full graph (reference),AUROC,0.0036,0,10,0.002
+graph,shuffled edges (past-only),LR (+neighbours),LR (+neighbours) @ full graph (reference),R20,-0.0046,10,10,0.002
+graph,shuffled edges (past-only),RF (+neighbours),RF (+neighbours) @ full graph (reference),AUPRC,-0.0064,9,10,0.0371
+graph,shuffled edges (past-only),RF (+neighbours),RF (+neighbours) @ full graph (reference),AUROC,0.0031,0,10,0.002
+graph,shuffled edges (past-only),RF (+neighbours),RF (+neighbours) @ full graph (reference),R20,0.0059,1,10,0.0156
+graph,single-relation GCN (merged edges),GCN (single relation),R-GCN @ full graph (reference),AUPRC,0.0108,3,10,0.0273
+graph,single-relation GCN (merged edges),GCN (single relation),R-GCN @ full graph (reference),AUROC,0.0026,2,10,0.4316
+graph,single-relation GCN (merged edges),GCN (single relation),R-GCN @ full graph (reference),R20,0.0055,4,10,0.332
